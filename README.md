@@ -1,6 +1,6 @@
 # Azubi AWS Solutions Architect Project - Understanding Dockers
 
-## by Leslie Narh
+## by kebe
 
 > This project looks at migrating applications into containers in the AWS environment, as well as the Docker environment.
 
