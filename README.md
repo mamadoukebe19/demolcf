@@ -11,3 +11,17 @@ The main outcome is to have a shareable working docker image hosted on the docke
 ## Objective of version 2
 
 Your main outcome is to have a working docker image deployed on AWS and running on Fargate.
+
+------------------------------Deploy first on local machin and then on fargate---------------------------
+
+  1 Création de l'image
+  
+   docker buildx build -t phpapp .
+
+  2 Execution du container
+  
+  docker run --name myawesome-php-app -d -p 8086:80 phpapp
+
+Accéder au browser et vérifier: http://0.0.0.0:8086/
+
+    
